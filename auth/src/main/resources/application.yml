@@ -22,4 +22,6 @@ spring:
   devtools:
     livereload:
       enabled: true
+secret:
+  jwt-key: ${JWT_KEY}
 
